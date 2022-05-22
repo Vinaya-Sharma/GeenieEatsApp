@@ -1,44 +1,28 @@
-# My Universal React Project
+## Inspiration
+GeenieEats is working to address the rising issue of global food waste. Unsold food is getting wasted yet many people are struggling to afford food. Small businesses alone are struggling as more Than 3.3 Million Tonnes Of Food Waste From Hotels, Restaurants, Bars And Events Go Into Landfill Sites Every Year. Yet 1 in 8 households in North America is food insecure, amounting to more than 38.3 million people living in food-insecure households
 
-<p>
-  <!-- iOS -->
-  <a href="https://itunes.apple.com/app/apple-store/id982107779">
-    <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  </a>
-  <!-- Android -->
-  <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample">
-    <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  </a>
-  <!-- Web -->
-  <a href="https://docs.expo.dev/workflow/web/">
-    <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-  </a>
-</p>
+## What it does
+GeenieEats works to build these missing connections by connecting restaurants with customers to purchase food before it goes to waste.
 
-## 🚀 How to use
+This way
 
-- Install packages with `yarn` or `npm install`.
-  - If you have native iOS code run `npx pod-install`
-- Run `yarn start` to start the bundler.
-- Open the project in a React runtime to try it:
-  - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
-  - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
-  - Web: Any web browser
+Businesses are able to make a profit on food that may have been wasted.
+Customers are able to help their community, save money and make a positive impact on the environment.
+How we built it
+GeenieEats was built with React Native for the front end and Firebase for the backend.
 
-## Adding Native Code
+##Challenges we ran into
+Working with mobile development is difficult and time-consuming while trying to get simulators up and running. Although most of GeenieEats functionality is the common CRUD actions the most major issue we run into was the react useeffect cleanup error while pulling data from firebase. However, by watching youtube videos and reading articles we were able to get rid of most of the errors.
 
-This project can be run from a web browser or the Expo client app. You may find that you want to add more native code later on. You can do this by ejecting the project and rebuilding it yourself.
+## Accomplishments that we're proud of
+Completing the applications core functionality
+Getting 3hrs of sleep in :)
+What we learned
+Learned a lot about staying organized and planning before diving into the code. By identifying the core features of the GeenieEats app and designing a basic mock-up and having sample UI inspiration to follow we were able to complete the application in the allotted time frame.
 
-- Run `yarn eject` to create the native projects.
-- You can still run your project in the web browser or Expo client, you just won't be able to access any new native modules you add.
+Recognized the importance of getting features done rather than perfect. At first, we wanted to spend a lot of time revamping the UI but realized the core features were more important at times.
 
-## Publishing
-
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.dev/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.dev/distribution/publishing-websites/).
-
-## 📝 Notes
-
-- Learn more about [Universal React](https://docs.expo.dev/).
-- See what API and components are [available in the React runtimes](https://docs.expo.dev/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.dev/guides/).
+## What's next for GeenieEats
+completing the dashboard
+revamping the UI
+integrating an AI-powered notification system and pricing system
